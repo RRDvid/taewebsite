@@ -1,0 +1,99 @@
+// Font
+$font1: 'Roboto', sans-serif; // Primary (Body font)
+$font2: 'Montserrat', sans-serif; // Secondary (Headings font)
+
+$font-size-base: 18px; // Assumes the browser default, typically `16px`
+$content-line-height: 1.4;
+
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+
+// Colours - Extra colours follow the following format: color<[0-9]>: hex
+$color1: #27434d; // Primary
+$color2: #EADCC9; // Secondary
+$color3: #27434d; // Tertiary
+$color4: #CDAA35; // Quaternary
+
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+$wrapper-color: $color-white;
+
+$success: $color1;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+
+$bg-gradient : linear-gradient(180deg,rgba($color4,.9) 0%, $color-white 100%);
+
+// Layout
+$wrap-width: 1550px;
+$wrap-width-small: 800px;
+$wrap-width-medium: 1300px;
+$wrap-width-large: 2500px;
+
+// Grid breakpoints
+$grid-breakpoints: (
+    xs: 0,
+    sm: 460px,
+    md: 768px,
+    lg: 1024px,
+    xl: 1280px,
+    xxl: 1600px
+);
+
+//Responsive Fonts
+$root-min-width: map-get($grid-breakpoints, sm );
+$root-max-width: map-get($grid-breakpoints, xxl ); //Recommemded to be biggest breakpoint
+$root-min-font: 10px;  // Could change
+$root-max-font: 16px;  // Always leave default 16px for HTML
+
+// Spacing - content
+$spacer: rem(40);
+$spacers: ();
+$spacers: map-merge(
+    (
+        0: 0,
+        1: ($spacer * .25),                 //10px
+        2: ($spacer * .5),                  //20px
+        3: $spacer,                         //40px
+        4: ($spacer + ( $spacer * .5)),     //60px
+        5: ($spacer * 2),                   //80px
+        6: ($spacer * 3),                   //120px
+        //7: (($spacer * 3) + rem(20))      //140px
+    ),
+    $spacers
+);
+
+// Grid columns
+$grid-columns: 12;
+$grid-gutter-width: rem(40);
+$grid-gutter-width-small: map-get($spacers, 2);
+$grid-gutter-width-large: map-get($spacers, 4);
+
+// Just for text spacing like P, UL, OL
+$content-space: map-get($spacers, 2);
+
+// Wrap Spacer
+$wrap-space: map-get($spacers, 3);
+
+// Define common padding and border radius sizes and more.
+$border-width: 2px;
+$border-color: $color2;
+
+// $border-radius: 20px;
+// $border-radius-small: 10px;
+
+// Buttons + Forms
+// $input-btn-font-size: rem(23);
+// $input-btn-padding-y: rem(12);
+// $input-btn-padding-x: rem(36);
+// $input-btn-height: rem(60);
+// $input-btn-border-width:  $border-width;
+// $input-btn-background:  $color-white;
+
+

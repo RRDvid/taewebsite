@@ -13,7 +13,7 @@
     "author": "Devs At Work",
     "license": "ISC",
     "dependencies": {
-        "mdb-ui-kit": "^3.8.0",
+        "mdb-ui-kit": "git+https://aoiYa-qt_QzxcGST7o_Y@git.mdbootstrap.com/mdb/standard/mdb-ui-kit-pro-essential",
         "autoprefixer": "^9.4.8",
         "autoprefixer-core": "^6.0.1",
         "bootstrap": "^4.5.0",

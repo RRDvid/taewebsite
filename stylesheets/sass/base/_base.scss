@@ -1,0 +1,145 @@
+/* =Default tag styles
+========================================================================================*/
+html {
+
+}
+
+// body{
+//     position: relative;
+//     font-size: rem($font-size-base);
+//     font-family: $font1;
+//     color: $color3;
+//     min-width: 320px;
+//     @include media-breakpoint-down(lg) {
+//         font-size: $root-max-font;
+//     }
+// }
+
+// #content img:not(.unstyled), img.responsive_img {
+//     max-width: 100%;
+//     height: auto;
+// }
+
+// a {
+//     text-decoration: none;
+//     color: $color1;
+//     &:hover { color: $color2; }
+// }
+
+// .link2 {
+//     text-decoration: none;
+//     color: $color2;
+//     &:hover { color: $color1; }
+// }
+
+
+/* =Font and Colours styles
+========================================================================================*/
+// .font1 { font-family: $font1; }
+// .font2 { font-family: $font2; }
+
+/* Font Colours */
+// .font-color1 {color:$color1;} /*Link*/
+// .font-color2 {color:$color2;} /*Link Hover*/
+// .font-color3 {color:$color3;} /*Body Font*/
+// .font-color4 {color:$color4;} /*Quote bg*/
+
+// .font-color-white {
+//     color:$color-white;
+// }
+
+// .font-color-black {
+//     color:$color-black;
+// }
+
+
+/* =Layout styles
+========================================================================================*/
+// #wrapper {
+//     background: $wrapper-color;
+//     position: relative;
+// }
+
+// .wrap {
+//     max-width: $wrap-width;
+//     margin: 0 auto;
+// }
+
+// .wrap-small {
+//     max-width: $wrap-width-small;
+//     margin: 0 auto;
+// }
+
+// .wrap-medium {
+//     max-width: $wrap-width-medium;
+//     margin: 0 auto;
+// }
+
+// .wrap-large {
+//     max-width: $wrap-width-large;
+//     margin: 0 auto;
+// }
+
+// .wrap-p {
+//     padding: $wrap-space;
+// }
+
+// .wrap-px {
+//     padding-left: $wrap-space;
+//     padding-right: $wrap-space;
+// }
+
+// .wrap-py {
+//     padding-top: $wrap-space;
+//     padding-bottom: $wrap-space;
+// }
+
+
+
+
+
+/* =Screen readers styles
+========================================================================================*/
+// .screen-reader-text {
+//     border: 0;
+//     clip: rect(1px, 1px, 1px, 1px);
+//     clip-path: inset(50%);
+//     height: 1px;
+//     margin: -1px;
+//     overflow: hidden;
+//     padding: 0;
+//     position: absolute !important;
+//     width: 1px;
+//     word-wrap: normal !important;
+//     /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+//     &:focus {
+//         background-color: $color-white;
+//         clip: auto !important;
+//         clip-path: none;
+//         color: $color-black;
+//         display: block;
+//         font-size: 1em;
+//         height: auto;
+//         left: 5px;
+//         line-height: normal;
+//         padding: 15px 23px 14px;
+//         text-decoration: none;
+//         top: 5px;
+//         width: auto;
+//         z-index: 100000;
+//         /* Above WP toolbar. */
+//     }
+// }
+
+
+/*** Selection ***/
+// ::selection {
+//     background:$color1;
+//     color:$color4;
+// }
+
+
+
+/* =DAW Media Query
+========================================================================================*/
+.daw_media_query_activation { height:0; width:0; position:absolute; overflow:hidden; visibility:hidden; }
