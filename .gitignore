@@ -16,3 +16,5 @@ secret.json
 package-lock.json
 js/general-built.js
 stylesheets/css/style.*
+mdb-webpack-starter-master/node_modules
+mdb-webpack-starter-master/package-lock.json

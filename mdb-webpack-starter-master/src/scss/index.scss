@@ -1,0 +1,132 @@
+//******** Import All
+// @import '~mdb-ui-kit/css/mdb.min.css';
+
+//******** Import Specific
+
+//**********************************/
+//******** Dont Touch **************/
+//**********************************/
+// CORE FUNCTIONS
+@import '../../mdb/scss/free/functions';
+
+// CORE VARIABLES
+@import '../../mdb/scss/custom/variables';
+@import '../../mdb/scss/free/variables';
+
+//**********************************/
+//**********************************/
+//**********************************/
+
+// BOOTSTRAP CORE
+@import '../../mdb/scss/bootstrap-rtl-fix/functions';
+@import '../../mdb/scss/bootstrap-rtl-fix/variables';
+@import '../../mdb/scss/bootstrap-rtl-fix/mixins';
+@import '../../mdb/scss/bootstrap-rtl-fix/utilities';
+
+// BOOTSTRAP RTL COMPONENTS
+@import '../../mdb/scss/bootstrap-rtl-fix/root';
+@import '../../mdb/scss/bootstrap-rtl-fix/reboot';
+@import '../../mdb/scss/bootstrap-rtl-fix/type';
+@import '../../mdb/scss/bootstrap-rtl-fix/images';
+@import '../../mdb/scss/bootstrap-rtl-fix/containers';
+@import '../../mdb/scss/bootstrap-rtl-fix/grid';
+@import '../../mdb/scss/bootstrap-rtl-fix/tables';
+@import '../../mdb/scss/bootstrap-rtl-fix/forms';
+@import '../../mdb/scss/bootstrap-rtl-fix/buttons';
+@import '../../mdb/scss/bootstrap-rtl-fix/transitions';
+@import '../../mdb/scss/bootstrap-rtl-fix/dropdown';
+@import '../../mdb/scss/bootstrap-rtl-fix/button-group';
+@import '../../mdb/scss/bootstrap-rtl-fix/nav';
+@import '../../mdb/scss/bootstrap-rtl-fix/navbar';
+@import '../../mdb/scss/bootstrap-rtl-fix/card';
+@import '../../mdb/scss/bootstrap-rtl-fix/breadcrumb';
+@import '../../mdb/scss/bootstrap-rtl-fix/pagination';
+@import '../../mdb/scss/bootstrap-rtl-fix/badge';
+@import '../../mdb/scss/bootstrap-rtl-fix/alert';
+@import '../../mdb/scss/bootstrap-rtl-fix/accordion';
+@import '../../mdb/scss/bootstrap-rtl-fix/progress';
+@import '../../mdb/scss/bootstrap-rtl-fix/list-group';
+@import '../../mdb/scss/bootstrap-rtl-fix/close';
+@import '../../mdb/scss/bootstrap-rtl-fix/toasts';
+@import '../../mdb/scss/bootstrap-rtl-fix/modal';
+@import '../../mdb/scss/bootstrap-rtl-fix/tooltip';
+@import '../../mdb/scss/bootstrap-rtl-fix/popover';
+@import '../../mdb/scss/bootstrap-rtl-fix/carousel';
+@import '../../mdb/scss/bootstrap-rtl-fix/spinners';
+@import '../../mdb/scss/bootstrap-rtl-fix/offcanvas';
+@import '../../mdb/scss/bootstrap-rtl-fix/tooltip';
+@import '../../mdb/scss/bootstrap-rtl-fix/utilities/api';
+// Helpers
+@import '../../mdb/scss/bootstrap-rtl-fix/helpers';
+
+// MDB CORE
+@import '../../mdb/scss/free/utilities';
+@import '../../mdb/scss/free/mixins';
+@import '../../mdb/scss/free/utilities';
+
+// MDB CORE COMPONENTS
+@import '../../mdb/scss/free/root';
+@import '../../mdb/scss/free/reboot';
+@import '../../mdb/scss/free/type';
+@import '../../mdb/scss/free/colors';
+@import '../../mdb/scss/free/shadows';
+@import '../../mdb/scss/free/flag';
+@import '../../mdb/scss/free/images';
+
+// MDB FORMS
+@import '../../mdb/scss/free/forms/form-control';
+@import '../../mdb/scss/free/forms/form-select';
+@import '../../mdb/scss/free/forms/form-check';
+@import '../../mdb/scss/free/forms/form-file';
+@import '../../mdb/scss/free/forms/input-group';
+@import '../../mdb/scss/free/forms/validation';
+@import '../../mdb/scss/free/forms/form-range';
+
+// MDB COMPONENTS
+@import '../../mdb/scss/free/tables';
+@import '../../mdb/scss/free/buttons';
+@import '../../mdb/scss/free/deprecated';
+@import '../../mdb/scss/free/dropdown';
+@import '../../mdb/scss/free/button-group';
+@import '../../mdb/scss/free/nav';
+@import '../../mdb/scss/free/navbar';
+@import '../../mdb/scss/free/card';
+@import '../../mdb/scss/free/breadcrumb';
+@import '../../mdb/scss/free/pagination';
+@import '../../mdb/scss/free/badge';
+@import '../../mdb/scss/free/alert';
+@import '../../mdb/scss/free/progress';
+@import '../../mdb/scss/free/list-group';
+@import '../../mdb/scss/free/close';
+@import '../../mdb/scss/free/modal';
+@import '../../mdb/scss/free/toasts';
+@import '../../mdb/scss/free/tooltip';
+@import '../../mdb/scss/free/popover';
+@import '../../mdb/scss/free/scrollspy';
+@import '../../mdb/scss/free/ripple';
+@import '../../mdb/scss/free/range';
+@import '../../mdb/scss/free/accordion';
+@import '../../mdb/scss/free/carousel';
+
+// MDB PRO
+@import '../../mdb/scss/pro/variables';
+@import '../../mdb/scss/pro/modal';
+@import '../../mdb/scss/pro/perfect-scrollbar';
+@import '../../mdb/scss/pro/sidenav';
+@import '../../mdb/scss/pro/animate';
+@import '../../mdb/scss/pro/lightbox';
+@import '../../mdb/scss/pro/rating';
+@import '../../mdb/scss/pro/timepicker';
+@import '../../mdb/scss/pro/navbar';
+@import '../../mdb/scss/pro/datepicker';
+@import '../../mdb/scss/pro/popconfirm';
+@import '../../mdb/scss/pro/datatable';
+@import '../../mdb/scss/pro/stepper';
+@import '../../mdb/scss/pro/sticky';
+@import '../../mdb/scss/pro/select';
+@import '../../mdb/scss/pro/loading';
+@import '../../mdb/scss/pro/autocomplete';
+@import '../../mdb/scss/pro/theme/theming';
+@import '../../mdb/scss/pro/chips';
+@import '../../mdb/scss/pro/multi-range';
+@import '../../mdb/scss/pro/date-time-picker';
