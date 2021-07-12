@@ -1,2 +1,398 @@
 /* =Home
 ========================================================================================*/
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    width: 100%;
+    height: 1300px;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5px;
+}
+
+.logo {
+    font-size: 35px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+
+.nav-links li{
+    float: left;
+    padding:0px 50px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white
+}
+
+.nav-links a:hover{
+    color:grey;
+}
+
+.lines{
+    display: none;
+    cursor: pointer;
+}
+
+.lines div{
+    width: 25px;
+    height:2px;
+    background-color: white;
+    margin: 5px;
+}
+
+.heavyLine{
+    width:70%;
+    height: .5px;
+    background-color: white;
+    margin:10px auto;
+    opacity: 0.4;
+    }
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-size: 65px;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    margin-top: 160px;
+    opacity: 0.6;
+}
+
+.meObj{
+    border: 1px solid grey;
+    display: flex;
+    width:70%;
+    height:55%;
+    margin: 0 auto;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myName {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #CEBC81;
+    displaY: flex;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.firstName {
+    font-size: 200%;
+}
+
+.myPic {
+    display: flex;
+
+}
+
+.mePicture {
+
+    height:80%;
+    width: 200px;
+    z-index: -1;
+}
+
+.imagebg{
+    width:100%;
+    height: 185%;
+    opacity:1;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.myGoal {
+    display: flex;
+    width:70%;
+    height: 50%;
+    color: #B19F9E;
+    font-size: 120%;
+    font-family: 'Mulish', sans-serif;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.objectives {
+    color:white;
+    font-size:30px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: .8;
+}
+
+.education-container{
+    display: flex;
+    margin: 80px auto;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    width:50%;
+    height:20%;
+    // border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    opacity: .8;
+}
+
+.school-bg{
+    background-color: #19181A;
+    width:100%;
+    height: 100%;
+}
+
+.schools-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.school-1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    // border: 1px solid white;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.school-2{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    // border: 1px solid white;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.school-3{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    // border: 1px solid white;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dba-school {
+    width:40%;
+    height: 60%;
+
+}
+
+.macq-school {
+    height: 60%;
+    width: 70%;
+}
+
+.skills-container {
+    display:flex;
+    height:30%;
+    width: 100%;
+    margin:150px auto;
+    background-color: #346D47;
+}
+
+.skills-1{
+    border-right: 2px solid grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    height:100%;
+    color: black;
+    font-size: 200%;
+}
+
+.list-skills {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills-1 li {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.skills-2{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    height:100%;
+    color: black;
+    font-size: 140%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.RR {
+    color: white;
+    font-size: 20px;
+}
+
+
+//MOBILE VIEW
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+        background-color: #19181A;
+    }
+
+    .nav-links{
+        background-color: #479461;
+        position: absolute;
+        right: 0px;
+        top: 8vh;
+        height: 10vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:40%;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .lines{
+        display:block;
+    }
+
+    .imagebg{
+        height: 150%;
+    }
+
+    .resume{
+        font-size:150%;
+    }
+
+    .meObj{
+        margin-top: 50px;
+        height:60%;
+
+    }
+
+    .myName{
+        margin: 0;
+        align-self: center;
+    }
+
+
+    .mePicture {
+        margin:0 auto;
+        width: 40%;
+    }
+
+    .myGoal{
+        width: 80%;
+    }
+    .schools-container{
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .school-1 {
+        width: 80%;
+    }
+    .school-2 {
+        width: 80%;
+    }
+    .school-3 {
+        width: 80%;
+    }
+
+    .skills-container {
+        margin-top: 200px;
+    }
+
+    .skills-2{
+        margin-left:20px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .imagebg {
+        height:250%;
+    }
+}
+
+.nav-move {
+    transform: translate(0%);
+}
+
+.addCol {
+    background-color: white;
+    opacity: 0.7
+}
+
+@keyframes navLinksShow{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
